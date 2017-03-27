@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bawei.daning.butterknife.ButterknifeActivity">
+
+    <include layout="@layout/titlebar" />
+
+    <TextView
+        android:id="@+id/tv_butterknife"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="textviw"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cb_butterknife"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="checbox"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bt_butterknife"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="button"
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bawei.daning">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/atguigu_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".frame_building.activity.LauncherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".frame_building.activity.MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".okhttp.OkHttpActivity" />
+        <activity android:name=".recyclerview.RecyclerViewActivity" />
+        <activity android:name=".Afinal.AfinalActivity" />
+        <activity android:name=".butterknife.ButterknifeActivity" />
+        <activity android:name=".Glide.activity.GlideActivity" />
+        <activity android:name=".Glide.activity.GlideBaseActivity" />
+        <activity android:name=".Glide.activity.GlideRecyclerViewActivity" />
+        <activity android:name=".Glide.activity.GlideTranformationsActivity" />
+        <activity android:name=".eventbus.EventBusActivity" />
+        <activity android:name=".eventbus.EventBusSendActivity"></activity>
+    </application>
+
+</manifest>
